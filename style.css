@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: flex;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid grey;
+    height: 50px;
+    align-items: center;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 2%;
+}
+input{
+    padding: 5px 60px 5px 7px;
+}
+.home{
+    margin-right: 20px;
+    font-size: 19px;
+}
+h1{
+    text-align: center;
+    margin-top: 3vw;
+}
+.para{
+    text-align: center;
+    margin-top: 1.5vw;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.button{
+    text-align: center;
+    margin-top: 2vw;
+}
+#btn1{
+    background-color: blue;
+    color: white;
+    padding:10px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    
+}
+#btn2{
+    background-color: white;
+    color: blue;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    outline: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+#btn1 a{
+    text-decoration: none;
+    color: white;
+}
+#btn2 a{
+    text-decoration: none;
+    color: blue;
+}
+.bold{
+    font-weight: 700;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5vw;
+    justify-content: space-around;
+}
+img{
+    width:110%;
+    height:12vw;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5vw;
+    position: absolute;
+    bottom: 2px;
+    left: 40%;
+    
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
